@@ -8,7 +8,7 @@ RUN conda install -c conda-forge geopandas gdal matplotlib jupyter descartes -y
 RUN useradd -ms /bin/bash jupyter
 
 # Copy files
-COPY ./NHD_H_Idaho_State_Shape/* /home/jupyter/data/
+COPY ./NHD_H_Idaho_State_Shape/Shape/* /home/jupyter/NHD_H_Idaho_State_Shape/Shape/
 COPY ./Shapefile_Demo.ipynb /home/jupyter/.
 
 # Change to this new user

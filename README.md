@@ -1,5 +1,5 @@
-# Simple Docker Example
-An example of using a docker file to create reproducible experiments
+# Shapefile Example Using Docker
+An example of reading and plotting shapefile data using Python
 
 
 # Build a container for jupyter notebook
@@ -35,4 +35,4 @@ The token will be unique and generated every time the container is launched.
 
 # Open the notebook
 
-Once the web page is loaded, click on the _hydrograph_example.ipynb_ file to load the notebook
+Once the web page is loaded, click on the _Shapefile_Demoo.ipynb_ file to load the notebook
